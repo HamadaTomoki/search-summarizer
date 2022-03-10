@@ -1,0 +1,11 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.searchSummarizer",
+      "sha256_cert_fingerprints":
+      ["30:CC:17:76:3E:62:5D:15:D6:93:FE:93:33:79:3C:9B:90:44:12:34:9C:40:8D:51:0D:4B:D0:D8:4E:74:1D:C8"]
+    }
+  }
+]
