@@ -28,11 +28,11 @@ fun Route.browserRouting() {
             )
             call.respond(summarizedUrl)
         }
+    }
 
-        static(".well-known") {
-            staticRootFolder = File(".well-known") // Establishes a root folder
-            file("assetlinks.json")
-        }
+    static(".well-known") {
+        staticRootFolder = File(".well-known") // Establishes a root folder
+        file("assetlinks.json")
     }
 }
 
